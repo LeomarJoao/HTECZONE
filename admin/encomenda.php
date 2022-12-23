@@ -34,7 +34,7 @@ include "topheader.php";
           <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title">Encomendas  / Page <?php echo $page;?> </h4>
+                <h4 class="card-title">Encomendas<?php echo $page;?> </h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
@@ -82,7 +82,7 @@ include "topheader.php";
                             <td>$Telefone</td>
 
                             <td>
-                            <a class=' btn btn-danger' href='encomenda.php?Id=$Id&action=delete'>Delete</a>
+                            <a class=' btn btn-danger' href='encomenda.php?Id=$Id&action=delete'>ELIMINAR</a>
                             </td>
 
                         </tr>";

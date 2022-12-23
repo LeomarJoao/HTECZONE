@@ -100,12 +100,9 @@ CREATE TABLE IF NOT EXISTS `categories` (
 /*!40000 ALTER TABLE `categories` DISABLE KEYS */;
 INSERT INTO `categories` (`cat_id`, `cat_title`) VALUES
 	(1, 'Electronics'),
-	(2, 'Ladies Wears'),
-	(3, 'Mens Wear'),
-	(4, 'Kids Wear'),
-	(5, 'Furnitures'),
-	(6, 'Home Appliances'),
-	(7, 'Electronics Gadgets');
+	(2, 'Loja'),
+	(3, 'Quem Somos'),
+	(4, 'Fale Connoscos');
 /*!40000 ALTER TABLE `categories` ENABLE KEYS */;
 
 -- A despejar estrutura para tabela ecommerce.email_info

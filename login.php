@@ -50,7 +50,7 @@ if(isset($_POST["email"]) && isset($_POST["password"])){
 
 			var_dump($BackToMyPage);
 				if(!isset($BackToMyPage)) {
-					header('Location: '.$BackToMyPage);
+					//header('Location: '.$BackToMyPage);
 					echo"<script type='text/javascript'>
 					
 					</script>";

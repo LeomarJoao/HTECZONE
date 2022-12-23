@@ -30,7 +30,7 @@ include "topheader.php";
         <div class="col-md-5 mx-auto">
             <div class="card">
               <div class="card-header card-header-primary">
-                <h5 class="title">Edit User</h5>
+                <h5 class="title">Editar Usuário</h5>
               </div>
               <form action="edituser.php" name="form" method="post" enctype="multipart/form-data">
               <div class="card-body">
@@ -38,25 +38,25 @@ include "topheader.php";
                   <input type="hidden" name="user_id" id="user_id" value="<?php echo $user_id;?>" />
                     <div class="col-md-12 ">
                       <div class="form-group">
-                        <label>First name</label>
+                        <label>Primeiro Nome</label>
                         <input type="text" id="first_name" name="first_name"  class="form-control" value="<?php echo $first_name; ?>" >
                       </div>
                     </div>
                     <div class="col-md-12 ">
                       <div class="form-group">
-                        <label>Last name</label>
+                        <label>Último Nome</label>
                         <input type="text" id="last_name" name="last_name" class="form-control" value="<?php echo $last_name; ?>" >
                       </div>
                     </div>
                     <div class="col-md-12 ">
                       <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
+                        <label for="exampleInputEmail1">Email</label>
                         <input type="email"  id="email" name="email" class="form-control" value="<?php echo $email; ?>">
                       </div>
                     </div>
                     <div class="col-md-12 ">
                       <div class="form-group">
-                        <label >Password</label>
+                        <label >Senha</label>
                         <input type="text" name="password" id="password" class="form-control" value="<?php echo $user_password; ?>">
                       </div>
                     </div>
@@ -66,7 +66,7 @@ include "topheader.php";
                 
               </div>
               <div class="card-footer">
-                <button type="submit" id="btn_save" name="btn_save" class="btn btn-fill btn-primary">Update</button>
+                <button type="submit" id="btn_save" name="btn_save" class="btn btn-fill btn-primary">Actualizar</button>
               </div>
               </form>    
             </div>
